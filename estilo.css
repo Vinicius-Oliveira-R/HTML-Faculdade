@@ -65,17 +65,31 @@ img{
 
 .instagram{
     width: 10%;
-    height: 19.5%;
+    height: 18.8%;
     background-color: rgb(251, 45, 45);
+    border-style: solid;
+    border-color: black;
     position:absolute;
     left:89.6%;
     top:8px;
 }
 .github{
     width: 10%;
-    height: 19.5%;
+    height: 18.8%;
     background-color: blue;
+    border-style: solid;
+    border-color: black;
     position:absolute;
     left:80%;
     top:8px
+}
+.email{
+    width:10%;
+    height: 18.8%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position:absolute;
+    left: 70%;
+    top:8px;
 }
