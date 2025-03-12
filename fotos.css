@@ -16,26 +16,26 @@
 
 .fotoPerfil img{
     left: 10%;
-    width:80%;
-    height: 80%;
-    object-fit:cover ;
+    width:99%;
+    height:99%;
+    object-fit:cover;
     border-radius: 50%;
 }
 
 .fotoInstagram img{
-    position: absolute;
+    position: static;
     width: 100%;
     height: 100%;
 }
 
 .fotoGithub img{
-    position: absolute;
+    position: static;
     width:100%;
     height: 100%;
 }
 
 .fotoEmail img{
-    position: absolute;
+    position: static;
     width:100%;
     height: 100%;
 }
