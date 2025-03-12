@@ -66,8 +66,16 @@ img{
 .instagram{
     width: 10%;
     height: 19.5%;
-    background-color: red;
+    background-color: rgb(251, 45, 45);
     position:absolute;
     left:89.6%;
     top:8px;
+}
+.github{
+    width: 10%;
+    height: 19.5%;
+    background-color: blue;
+    position:absolute;
+    left:80%;
+    top:8px
 }
