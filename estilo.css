@@ -40,12 +40,10 @@ img{
     display: flex;
     color: black;
     font-size: 12px;
-    
     position:absolute;
     left: 20px;
     top:10.5%; 
     transform: translateY(-50%);
-
     justify-content: center;
     align-items: center;
 }
@@ -64,32 +62,38 @@ img{
 }
 
 .instagram{
-    width: 10%;
-    height: 18.8%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
     background-color: rgb(251, 45, 45);
     border-style: solid;
     border-color: black;
     position:absolute;
-    left:89.6%;
-    top:8px;
+    left:12%;
+    top:9px;
 }
+
 .github{
-    width: 10%;
-    height: 18.8%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-radius: 50%;
     background-color: blue;
     border-style: solid;
     border-color: black;
     position:absolute;
-    left:80%;
-    top:8px
+    left:16%;
+    top:60px
 }
+
 .email{
-    width:10%;
-    height: 18.8%;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
     background-color: white;
     border-style: solid;
     border-color: black;
     position:absolute;
-    left: 70%;
-    top:8px;
+    left: 12%;
+    top:110px;
 }
