@@ -45,6 +45,7 @@ img{
     left: 20px;
     top:10.5%; 
     transform: translateY(-50%);
+
     justify-content: center;
     align-items: center;
 }
@@ -55,11 +56,18 @@ img{
     height: 80%;
     object-fit:cover ;
     border-radius: 50%;
-    
 }
 
 .apresentacao{
-    
     font-family: Arial;
     font-size: 30px;
+}
+
+.instagram{
+    width: 10%;
+    height: 19.5%;
+    background-color: red;
+    position:absolute;
+    left:89.6%;
+    top:8px;
 }
