@@ -22,6 +22,7 @@ p{
     font-family: Arial, sans-serif;
     font-weight: bold;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
 .apresentacao{
@@ -36,7 +37,7 @@ p{
     background-color: rgb(251, 45, 45);
     border-style: solid;
     border-color: black;
-    position:fixed;
+    position: absolute;
     left:11em;
     top:9px;
 }
@@ -49,9 +50,9 @@ p{
     background-color: rgb(30, 30, 214);
     border-style: solid;
     border-color: black;
-    position:fixed;
+    position: absolute;
     left:15em;
-    top:60px
+    top:50px
 }
 
 .email{
@@ -61,14 +62,14 @@ p{
     background-color: white;
     border-style: solid;
     border-color: black;
-    position:fixed;
+    position: absolute;
     left: 11em;
-    top:110px;
+    top:100px;
 }
 
 .secoes{
-    width: 10%;
-    height: 10%;
+    width: 10em;
+    height: 12em;
     border-color: black;
     border-style: solid;
     background-color: white;
