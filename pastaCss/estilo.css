@@ -30,39 +30,39 @@ p{
 }
 
 .instagram{
-    width: 70px;
-    height: 70px;
+    width: 3.3em;
+    height: 3.3em;
     border-radius: 50%;
     background-color: rgb(251, 45, 45);
     border-style: solid;
     border-color: black;
     position:fixed;
-    left:12%;
+    left:11em;
     top:9px;
 }
 
 .github{
-    width: 70px;
-    height: 70px;
+    width: 3.3em;
+    height: 3.3em;
     border-radius: 50%;
     border-radius: 50%;
     background-color: rgb(30, 30, 214);
     border-style: solid;
     border-color: black;
     position:fixed;
-    left:16%;
+    left:15em;
     top:60px
 }
 
 .email{
-    width:70px;
-    height: 70px;
+    width:3.3em;
+    height:3.3em;
     border-radius: 50%;
     background-color: white;
     border-style: solid;
     border-color: black;
     position:fixed;
-    left: 12%;
+    left: 11em;
     top:110px;
 }
 

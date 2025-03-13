@@ -7,8 +7,8 @@
     color: black;
     font-size:12px;
     position:absolute;
-    left: 20px;
-    top:10.5%; 
+    left:1.3em;
+    top:8em; 
     transform: translateY(-50%);
     justify-content: center;
     align-items: center;
