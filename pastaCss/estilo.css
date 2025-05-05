@@ -3,7 +3,19 @@ p{
     text-align: justify;
     font-size: 20px;
 }
-
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
 .banner {
     width: 100%;
     height: 180px;
@@ -17,51 +29,87 @@ p{
     font-size: 20px;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 5px rgba(0, 217, 255, 0.411);
     position: relative;
 }
 
-.apresentacao{
+.apresentacao {
+    width: 75em;
+    height: 300px;
+    border-radius: 10px;
+    background-color:  rgba(66, 66, 66, 0.911);
+    margin-bottom:30px;
+    border-color: 0 0 10 white;
+    box-shadow: 0px 0px 15px rgba(0, 217, 255, 0.411);
+    position: absolute;
+    left: 75rem;
+    top: 23rem;
+    padding: 50px;
+}
+.apresentacao p{
     font-family: Arial;
     font-size: 30px;
     margin-bottom:30px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.apresentacao a{
+    color:rgb(63, 234, 247);
+}
+button{
+    background-color:rgb(113, 113, 114);
+    color: black;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 .instagram{
-    width: 3.3em;
-    height: 3.3em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
-    background-color: rgb(251, 45, 45);
+    background-color: rgb(179, 38, 38);
     border-style: solid;
     border-color: black;
     position: absolute;
-    left:11em;
-    top:9px;
+    left:40%;
+    top:30px;
 }
 
 .github{
-    width: 3.3em;
-    height: 3.3em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
     border-radius: 50%;
     background-color: rgb(30, 30, 214);
     border-style: solid;
     border-color: black;
     position: absolute;
-    left:15em;
-    top:50px
+    left:50%;
+    top:30px
 }
 
 .email{
-    width:3.3em;
-    height:3.3em;
+    width:6em;
+    height:6em;
     border-radius: 50%;
     background-color: white;
     border-style: solid;
     border-color: black;
     position: absolute;
-    left: 11em;
-    top:100px;
+    left: 60%;
+    top:30px;
 }
 
 .bannerProjetos{
@@ -120,4 +168,48 @@ p{
     align-items: center;
     color: black;
     font-size:30px;
+}
+
+.fotoPerfil{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color:white;
+    display: flex;
+    color: black;
+    font-size:12px;
+    position:absolute;
+    left:15em;
+    top:40rem;  
+    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoPerfil img{
+    left: 10%;
+    width:99%;
+    height:99%;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.fotoInstagram img{
+    width: 100%;
+    height: 100%;
+}
+
+.fotoGithub img{
+    width:100%;
+    height: 100%;
+}
+
+.fotoEmail img{
+    width:100%;
+    height: 100%;
+}
+
+.fotoProjeto{
+    width: 10%;
+    height: 10%;
 }
